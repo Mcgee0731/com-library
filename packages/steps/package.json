@@ -1,0 +1,11 @@
+{
+  "name": "mc-steps",
+  "version": "1.0.0",
+  "main":"dist/cjs/index.js",
+  "module":"dist/es/index.js",
+  "license": "MIT",
+  "author": "mcgee0731",
+  "scripts": {
+    "del":"rimraf dist"
+  }
+}

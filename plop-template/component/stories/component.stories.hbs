@@ -1,0 +1,15 @@
+import Mc{{properCase name}} from '../src/{{name}}.vue'
+
+export default {
+  title: 'Mc{{properCase name}}',
+  component: Mc{{properCase name}}
+}
+
+export const {{properCase name}} = _ => ({
+  components: { Mc{{properCase name}} },
+  template: `
+    <div>
+      <mc-{{name}}></mc-{{name}}>
+    </div>
+  `
+})

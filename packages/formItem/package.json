@@ -1,0 +1,14 @@
+{
+  "name": "mc-form-item",
+  "version": "1.0.0",
+  "main":"dist/cjs/index.js",
+  "module":"dist/es/index.js",
+  "license": "MIT",
+  "author": "mcgee0731",
+  "dependencies": {
+    "async-validator": "^4.0.7"
+  },
+  "scripts": {
+    "del":"rimraf dist"
+  }
+}
